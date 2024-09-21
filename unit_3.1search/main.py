@@ -13,6 +13,5 @@ antHill = AntHill(m, n)
 # antHill.startSearch(ant_1)
 
 # Create another ant with a starting position being random
-
 ant_2 = WorkerAnt( random.randint(0, m-1), random.randint(0, n-1) )
 antHill.startSearch(ant_2)

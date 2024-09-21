@@ -4,6 +4,7 @@ class WorkerAnt:
         self.curY = curY
         print("Ant starts searching on tile ({},{})".format(self.curX, self.curY))
 
+    
     def move(self, newX, newY):
         self.curX = newX
         self.curY = newY

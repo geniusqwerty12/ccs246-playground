@@ -11,11 +11,14 @@ class AntHill:
         self.m = m
         self.n = n
 
+        # X, Y, (4, 4)
         sugarCube = (random.randint(0, m-1), random.randint(0, n-1))
+
         print("Sugar cube was placed by the big hand at {}".format(sugarCube))
         for x in range(m):
             row = []
             for y in range(n):
+                # Checks if the tile is the sugar cube location
                 setSugarCube = False
                 if sugarCube == (x,y): setSugarCube = True
                 row.append(
