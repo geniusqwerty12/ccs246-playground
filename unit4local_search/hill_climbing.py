@@ -4,8 +4,11 @@ from solution import Solution
 import random
 
 max_iterations = 20
+# maximum budget to be spent
 budget = 1000
+# number of items in the menu
 menu_item_count = 20
+# maximum number of meals you can buy
 meal_count = 10
 
 menu = []
